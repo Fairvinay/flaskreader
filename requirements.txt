@@ -1,4 +1,7 @@
 Flask
 Gunicorn
 PYPDF2
-Flask-Cors
+flask-Cors
+Werkzeug
+PyMuPDF
+ 
