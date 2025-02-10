@@ -1,6 +1,6 @@
 from flask import Flask, request, send_file
 from PyPDF2 import PdfReader, PdfWriter
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import tempfile
 
 from config import Config
