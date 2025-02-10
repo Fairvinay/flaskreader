@@ -12,6 +12,7 @@ CORS(app, resources=Config.CORS_RESOURCES)
 
 
 @app.route('/remove_password', methods=['POST'])
+@cross_origin(origin='*')
 def unlock_pdf():
     password = request.form.get('password')
     uploaded_file = request.files['pdfFile']
